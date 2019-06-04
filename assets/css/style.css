@@ -108,6 +108,12 @@ p {
   color: #000000
 }
 
+input {
+  size: 20px;
+  background-color: #fafafa;
+  color: rgb(0, 0, 0);
+}
+
 
 
 .row {
@@ -160,4 +166,11 @@ p {
     margin-bottom: 0;
     padding-bottom: 1%;
 
+  }
+
+  .formulaire {
+    background-color: rgb(43, 5, 5, 0.986);
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
   }

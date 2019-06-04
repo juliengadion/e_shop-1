@@ -1,17 +1,25 @@
-body {
-    background: #ffffff;
-    margin: 0;
+main {
+    background: #000000;
+    margin: auto;
     height: 100%;
-    color: #384452;
+    background-color: #000000;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 50;
    }
 
 
 
 header {
-    background-color: rgba(61, 83, 83, 0.5);
+    background-color: rgba(43, 5, 5, 0.986);
 }
+
+.tittre {
+    text-align: center;
+    margin: 20px, 0, 20px, 0;
+    font-size: 500px;
+    color: rgb(177, 113, 31);
+}
+
 
 /* nav */
 
@@ -20,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
   }
   
   li {
@@ -38,4 +46,10 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+
+  /*carousel*/
+
+  #carousel {
+      
   }

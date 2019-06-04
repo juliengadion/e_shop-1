@@ -1,3 +1,7 @@
+html {
+    background-color: rgb(43, 5, 5, 0.986);
+}
+
 main {
     background: #000000;
     margin: auto;
@@ -22,6 +26,8 @@ main {
 
 header {
     background-color: rgba(43, 5, 5, 0.986);
+    margin-top: 100px;
+    
 }
 
 .tittre {
@@ -51,11 +57,12 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
 
   /*carousel*/
@@ -70,4 +77,66 @@ ul {
       font-size: 50px;
       text-align: center;
       color: antiquewhite;
+  }
+
+  /* boutique */
+
+  .container-fluid {
+      background-color: rgb(43, 5, 5, 0.986);
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+h1 {
+    font-size: 500px;
+    word-break: break-all;
+  }
+  
+.row {
+    margin: 8px -16px;
+  }
+  
+.row,
+.row > .column {
+    padding: 8px;
+  }
+  
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }

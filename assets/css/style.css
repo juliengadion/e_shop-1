@@ -97,9 +97,13 @@ ul {
     max-width: 1000px;
     margin: auto;
   }
+
+  .logo {
+    margin-left: 750px;
+  }
   
 h1 {
-    font-size: 500px;
+    font-size: 200px;
     word-break: break-all;
   }
   

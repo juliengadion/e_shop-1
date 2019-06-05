@@ -173,4 +173,11 @@ input {
     text-align: center;
     color: antiquewhite;
     font-size: 20px;
+    
   }
+
+  label {
+    color: antiquewhite;
+  }
+
+
